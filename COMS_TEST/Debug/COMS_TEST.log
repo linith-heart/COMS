@@ -1,0 +1,64 @@
+﻿6/14/2018 4:33:37 PM にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\kazu\Documents\Visual Studio 2015\Projects\team stuff\COMS_TEST\COMS_TEST\COMS_TEST.vcxproj" (Build ターゲット)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (COMS.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt "file data.cpp"
+         file data.cpp
+     1>c:\users\kazu\documents\visual studio 2015\projects\team stuff\coms_test\coms_test\file data.cpp(77): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: 'strcpy' の宣言を確認してください
+     1>c:\users\kazu\documents\visual studio 2015\projects\team stuff\coms_test\coms_test\file data.cpp(79): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(90): note: 'strcat' の宣言を確認してください
+     1>c:\users\kazu\documents\visual studio 2015\projects\team stuff\coms_test\coms_test\file data.cpp(81): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(90): note: 'strcat' の宣言を確認してください
+     1>c:\users\kazu\documents\visual studio 2015\projects\team stuff\coms_test\coms_test\file data.cpp(84): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: 'fopen' の宣言を確認してください
+     1>c:\users\kazu\documents\visual studio 2015\projects\team stuff\coms_test\coms_test\file data.cpp(91): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1193): note: 'fscanf' の宣言を確認してください
+     1>c:\users\kazu\documents\visual studio 2015\projects\team stuff\coms_test\coms_test\file data.cpp(105): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: 'strcpy' の宣言を確認してください
+     1>c:\users\kazu\documents\visual studio 2015\projects\team stuff\coms_test\coms_test\file data.cpp(126): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: 'strcpy' の宣言を確認してください
+     1>c:\users\kazu\documents\visual studio 2015\projects\team stuff\coms_test\coms_test\file data.cpp(147): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: 'strcpy' の宣言を確認してください
+     1>c:\users\kazu\documents\visual studio 2015\projects\team stuff\coms_test\coms_test\file data.cpp(148): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(90): note: 'strcat' の宣言を確認してください
+     1>c:\users\kazu\documents\visual studio 2015\projects\team stuff\coms_test\coms_test\file data.cpp(218): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: 'strcpy' の宣言を確認してください
+     1>c:\users\kazu\documents\visual studio 2015\projects\team stuff\coms_test\coms_test\file data.cpp(219): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(90): note: 'strcat' の宣言を確認してください
+     1>c:\users\kazu\documents\visual studio 2015\projects\team stuff\coms_test\coms_test\file data.cpp(296): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: 'strcpy' の宣言を確認してください
+     1>c:\users\kazu\documents\visual studio 2015\projects\team stuff\coms_test\coms_test\file data.cpp(323): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: 'strcpy' の宣言を確認してください
+     1>c:\users\kazu\documents\visual studio 2015\projects\team stuff\coms_test\coms_test\file data.cpp(339): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: 'strcpy' の宣言を確認してください
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kazu\Documents\Visual Studio 2015\Projects\team stuff\COMS_TEST\Debug\COMS_TEST.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\kazu\Documents\Visual Studio 2015\Projects\team stuff\COMS_TEST\Debug\COMS_TEST.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kazu\Documents\Visual Studio 2015\Projects\team stuff\COMS_TEST\Debug\COMS_TEST.lib" /MACHINE:X86 Debug\basic.obj
+         Debug\bg.obj
+         Debug\DBD.obj
+         Debug\debugproc.obj
+         Debug\event.obj
+         Debug\fade.obj
+         "Debug\file data.obj"
+         "Debug\game BG.obj"
+         Debug\game.obj
+         Debug\input.obj
+         Debug\main.obj
+         Debug\player.obj
+         Debug\rival.obj
+         "Debug\result BG.obj"
+         Debug\result.obj
+         Debug\schedule.obj
+         Debug\terget.obj
+         "Debug\text box.obj"
+         Debug\text.obj
+         "Debug\title BG.obj"
+         Debug\title.obj
+         Debug\oneweek.obj
+         Debug\weekresult.obj
+         COMS_TEST.vcxproj -> C:\Users\kazu\Documents\Visual Studio 2015\Projects\team stuff\COMS_TEST\Debug\COMS_TEST.exe
+     1>プロジェクト "C:\Users\kazu\Documents\Visual Studio 2015\Projects\team stuff\COMS_TEST\COMS_TEST\COMS_TEST.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:01.06

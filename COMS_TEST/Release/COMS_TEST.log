@@ -1,0 +1,43 @@
+﻿6/26/2018 1:04:31 PM にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\kazu\Documents\Visual Studio 2015\Projects\team stuff\COMS_TEST\COMS_TEST\COMS_TEST.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt oneweek.cpp
+         oneweek.cpp
+     1>c:\users\kazu\documents\visual studio 2015\projects\team stuff\coms_test\coms_test\bg.h(43): warning C4091: 'typedef ': 変数が何も宣言されていないときは、'' の左辺を無視します。
+     1>c:\users\kazu\documents\visual studio 2015\projects\team stuff\coms_test\coms_test\text box.h(44): warning C4091: 'typedef ': 変数が何も宣言されていないときは、'' の左辺を無視します。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kazu\Documents\Visual Studio 2015\Projects\team stuff\COMS_TEST\Release\COMS_TEST.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\kazu\Documents\Visual Studio 2015\Projects\team stuff\COMS_TEST\Release\COMS_TEST.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kazu\Documents\Visual Studio 2015\Projects\team stuff\COMS_TEST\Release\COMS_TEST.lib" /MACHINE:X86 /SAFESEH Release\basic.obj
+         Release\bg.obj
+         Release\DBD.obj
+         Release\debugproc.obj
+         Release\event.obj
+         Release\fade.obj
+         "Release\file data.obj"
+         "Release\game BG.obj"
+         Release\game.obj
+         Release\input.obj
+         Release\main.obj
+         Release\player.obj
+         Release\Prologue.obj
+         Release\rival.obj
+         "Release\result BG.obj"
+         Release\result.obj
+         Release\schedule.obj
+         Release\terget.obj
+         "Release\text box.obj"
+         Release\text.obj
+         "Release\title BG.obj"
+         Release\title.obj
+         Release\oneweek.obj
+         Release\weekresult.obj
+         コード生成しています。
+         3 of 168 functions ( 1.8%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           2 functions had inline decision re-evaluated but remain unchanged
+         コード生成が終了しました。
+         COMS_TEST.vcxproj -> C:\Users\kazu\Documents\Visual Studio 2015\Projects\team stuff\COMS_TEST\Release\COMS_TEST.exe
+     1>プロジェクト "C:\Users\kazu\Documents\Visual Studio 2015\Projects\team stuff\COMS_TEST\COMS_TEST\COMS_TEST.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:01.82
